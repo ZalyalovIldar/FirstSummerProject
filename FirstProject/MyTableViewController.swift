@@ -19,6 +19,12 @@ class MyTableViewController: UITableViewController {
          self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
+        arrayOfObjects.append(MyUser(name: "some name", age: 123))
     }
     
    override func viewWillAppear(_ animated: Bool) {
@@ -34,7 +40,7 @@ class MyTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 5
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -63,6 +69,10 @@ class MyTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "\(section)"
     }
     
     // MARK: - Navigation
