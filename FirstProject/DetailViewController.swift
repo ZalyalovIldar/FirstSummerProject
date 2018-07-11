@@ -10,6 +10,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
+    var newUser: User!
+    var isUserActive: Bool = false
     var text: String!
     var image: UIImage!
     
@@ -17,6 +19,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         textLabel?.text = text
+        isUserActive = true
     }
 
 }
