@@ -12,6 +12,8 @@
 		7C9CF4E520F358EB00FE3794 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9CF4E420F358EB00FE3794 /* User.swift */; };
 		7C9CF53B20F4A09500FE3794 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9CF53A20F4A09500FE3794 /* SettingsViewController.swift */; };
 		7C9CF53D20F4CF8B00FE3794 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9CF53C20F4CF8B00FE3794 /* CustomCell.swift */; };
+		7CAFCDF220F5F32A00142939 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFCDF020F5F32A00142939 /* DetailTableViewCell.swift */; };
+		7CAFCDF320F5F32A00142939 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAFCDF120F5F32A00142939 /* DetailTableViewCell.xib */; };
 		7CE4659A20EF7ACA00B8E26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4659920EF7ACA00B8E26D /* AppDelegate.swift */; };
 		7CE4659C20EF7ACA00B8E26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4659B20EF7ACA00B8E26D /* ViewController.swift */; };
 		7CE4659F20EF7ACA00B8E26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4659D20EF7ACA00B8E26D /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		7C9CF4E420F358EB00FE3794 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7C9CF53A20F4A09500FE3794 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7C9CF53C20F4CF8B00FE3794 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		7CAFCDF020F5F32A00142939 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		7CAFCDF120F5F32A00142939 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 		7CE4659620EF7ACA00B8E26D /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE4659920EF7ACA00B8E26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE4659B20EF7ACA00B8E26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				7C9CF4E420F358EB00FE3794 /* User.swift */,
 				7C9CF4E020F343FA00FE3794 /* MyTableViewController.swift */,
 				7C9CF4E220F3504D00FE3794 /* DetailViewController.swift */,
+				7CAFCDF020F5F32A00142939 /* DetailTableViewCell.swift */,
+				7CAFCDF120F5F32A00142939 /* DetailTableViewCell.xib */,
 				7C9CF53A20F4A09500FE3794 /* SettingsViewController.swift */,
 				7CE4659D20EF7ACA00B8E26D /* Main.storyboard */,
 				7CE465A020EF7ACB00B8E26D /* Assets.xcassets */,
@@ -139,6 +145,7 @@
 			files = (
 				7CE465A420EF7ACB00B8E26D /* LaunchScreen.storyboard in Resources */,
 				7CE465A120EF7ACB00B8E26D /* Assets.xcassets in Resources */,
+				7CAFCDF320F5F32A00142939 /* DetailTableViewCell.xib in Resources */,
 				7CE4659F20EF7ACA00B8E26D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +159,7 @@
 			files = (
 				7CE4659C20EF7ACA00B8E26D /* ViewController.swift in Sources */,
 				7C9CF4E120F343FA00FE3794 /* MyTableViewController.swift in Sources */,
+				7CAFCDF220F5F32A00142939 /* DetailTableViewCell.swift in Sources */,
 				7CE4659A20EF7ACA00B8E26D /* AppDelegate.swift in Sources */,
 				7C9CF4E520F358EB00FE3794 /* User.swift in Sources */,
 				7C9CF4E320F3504D00FE3794 /* DetailViewController.swift in Sources */,
