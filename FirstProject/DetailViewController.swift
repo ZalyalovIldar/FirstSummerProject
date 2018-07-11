@@ -12,6 +12,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
     var newUser: User!
     var isUserActive: Bool = false
+    var someBool: Bool = false
+    var someInt: Int = 123
     var text: String!
     var image: UIImage!
     
