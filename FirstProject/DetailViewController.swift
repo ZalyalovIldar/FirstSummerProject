@@ -10,6 +10,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
+    var someBool: Bool = false
+    var someInt: Int = 123 
     var text: String!
     var image: UIImage!
     
